@@ -64,3 +64,5 @@ projects[l10n_client][subdir] = contrib
 ; Extra Utilities
 projects[git_deploy][version] = 2.2
 projects[git_deploy][subdir] = contrib
+projects[transliteration][version] = 3.1
+projects[transliteration][subdir] = contrib

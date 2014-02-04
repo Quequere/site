@@ -55,3 +55,4 @@ dependencies[] = l10n_client
 
 ; Extra Utilities
 dependencies[] = git_deploy
+dependencies[] = transliteration
