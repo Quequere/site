@@ -53,6 +53,7 @@ projects[radix_core][download][branch] = 7.x-1.x
 projects[radix_core][patch][] = https://drupal.org/files/issues/radix_core-update_radix_theme-3.patch
 projects[radix_admin][subdir] = panopoly
 projects[radix_layouts][subdir] = panopoly
+projects[radix][patch][] = https://drupal.org/files/issues/radix-missing_navbar_icons_0.patch
 
 ; Localization
 projects[l10n_update][version] = 2.x-dev
