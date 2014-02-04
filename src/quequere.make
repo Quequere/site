@@ -52,6 +52,15 @@ projects[radix_core][download][revision] = 472330c
 projects[radix_core][download][branch] = 7.x-1.x
 projects[radix_core][patch][] = https://drupal.org/files/issues/radix_core-update_radix_theme-3.patch
 
+; Localization
+projects[l10n_update][version] = 2.x-dev
+projects[l10n_update][subdir] = contrib
+projects[l10n_update][download][type] = git
+projects[l10n_update][download][revision] = 2919d7e
+projects[l10n_update][download][branch] = 7.x-2.x
+projects[l10n_client][version] = 1.3
+projects[l10n_client][subdir] = contrib
+
 ; Extra Utilities
 projects[git_deploy][version] = 2.2
 projects[git_deploy][subdir] = contrib

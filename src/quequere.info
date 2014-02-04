@@ -49,5 +49,9 @@ dependencies[] = date_popup_authored
 dependencies[] = devel
 dependencies[] = uuid
 
+; Localization
+dependencies[] = l10n_update
+dependencies[] = l10n_client
+
 ; Extra Utilities
 dependencies[] = git_deploy
