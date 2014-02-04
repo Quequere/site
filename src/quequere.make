@@ -50,4 +50,4 @@ projects[radix_core][subdir] = panopoly
 projects[radix_core][download][type] = git
 projects[radix_core][download][revision] = 472330c
 projects[radix_core][download][branch] = 7.x-1.x
-projects[radix_core][patch][] = https://drupal.org/files/issues/radix_core-update_radix_theme.patch
+projects[radix_core][patch][] = https://drupal.org/files/issues/radix_core-update_radix_theme-3.patch
