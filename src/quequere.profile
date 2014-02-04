@@ -35,7 +35,7 @@ function quequere_install_tasks(&$install_state) {
   // Add the Panopoly app selection to the installation process
   $panopoly_server = array(
     'machine name' => 'panopoly',
-    'default apps' => array('panopoly_demo'),
+    'default apps' => array(),
     'default content callback' => 'quequere_default_content',
   );
   require_once(drupal_get_path('module', 'apps') . '/apps.profile.inc');
