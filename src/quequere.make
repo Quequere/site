@@ -45,6 +45,12 @@ projects[panopoly_wysiwyg][subdir] = panopoly
 projects[panopoly_search][version] = 1.1
 projects[panopoly_search][subdir] = panopoly
 
+; The Panopoly Apps
+projects[panopoly_news][version] = 1.1
+projects[panopoly_news][subdir] = panopoly
+projects[panopoly_faq][version] = 1.1
+projects[panopoly_faq][subdir] = panopoly
+
 ; The Panopoly Radix
 projects[radix_core][download][type] = git
 projects[radix_core][download][revision] = 472330c

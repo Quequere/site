@@ -49,6 +49,13 @@ dependencies[] = date_popup_authored
 dependencies[] = devel
 dependencies[] = uuid
 
+; Panopoly Apps
+dependencies[] = panopoly_news
+dependencies[] = panopoly_faq
+
+; Panopoly Radix
+dependencies[] = radix_core
+
 ; Localization
 dependencies[] = l10n_update
 dependencies[] = l10n_client
