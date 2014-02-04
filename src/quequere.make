@@ -51,3 +51,7 @@ projects[radix_core][download][type] = git
 projects[radix_core][download][revision] = 472330c
 projects[radix_core][download][branch] = 7.x-1.x
 projects[radix_core][patch][] = https://drupal.org/files/issues/radix_core-update_radix_theme-3.patch
+
+; Extra Utilities
+projects[git_deploy][version] = 2.2
+projects[git_deploy][subdir] = contrib
