@@ -92,10 +92,14 @@ function quequere_default_content(&$modules) {
   // }
   //
   // This workaround assumes a pattern MYMODULE_demo.
-  $files = system_rebuild_module_data();
-  foreach($modules as $module) {
-    if (isset($files[$module . '_demo'])) {
-      $modules[] = $module . '_demo';
-    }
-  }
+  // $files = system_rebuild_module_data();
+  // foreach($modules as $module) {
+  //   if (isset($files[$module . '_demo'])) {
+  //     $modules[] = $module . '_demo';
+  //   }
+  // }
+
+  define('QUEQUERE', FALSE);
+
+  return QUEQUERE;
 }
