@@ -51,6 +51,8 @@ projects[radix_core][download][type] = git
 projects[radix_core][download][revision] = 472330c
 projects[radix_core][download][branch] = 7.x-1.x
 projects[radix_core][patch][] = https://drupal.org/files/issues/radix_core-update_radix_theme-3.patch
+projects[radix_admin][subdir] = panopoly
+projects[radix_layouts][subdir] = panopoly
 
 ; Localization
 projects[l10n_update][version] = 2.x-dev
