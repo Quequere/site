@@ -62,3 +62,6 @@ dependencies[] = l10n_client
 
 ; Extra Utilities
 dependencies[] = transliteration
+
+; Manifests
+dependencies[] = quequere_manifests

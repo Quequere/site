@@ -1,0 +1,5 @@
+name = Quequeré Manifests
+description = Kraftwagen manifests for the Quequeré project
+core = 7.x
+package = Quequeré
+dependencies[] = kw_manifests

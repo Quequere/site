@@ -1,0 +1,14 @@
+<?php
+
+/*
+ * Implements hook_kw_manifests_info().
+ */
+function quequere_manifests_kw_manifests_info() {
+  return array(
+    'quequere_site_info' => array(
+      'callback' => 'quequere_manifests_site_info',
+      'file' => 'site-info.manifests.inc',
+      'file path' => drupal_get_path('module', 'quequere_manifests') . '/manifests',
+    ),
+  );
+}
