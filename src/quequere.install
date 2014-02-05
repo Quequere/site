@@ -10,9 +10,6 @@ function quequere_install() {
   $default_theme = 'basic';
   variable_set('theme_default', $default_theme);
 
-  // Set the site name
-  variable_set('site_name', 'Quequeré Jogos');
-
   // Allow visitor account creation, but with administrative approval.
   variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
 
