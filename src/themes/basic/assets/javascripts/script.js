@@ -1,6 +1,6 @@
 /**
  * @file
- * JS for Radix Starter.
+ * Custom scripts for theme.
  */
 (function ($) {
   // code here
