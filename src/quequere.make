@@ -52,11 +52,12 @@ projects[panopoly_faq][version] = 1.1
 projects[panopoly_faq][subdir] = panopoly
 
 ; The Panopoly Radix
+projects[radix_core][type] = module
 projects[radix_core][download][type] = git
-projects[radix_core][download][revision] = 472330c
+projects[radix_core][download][url] = git://github.com/barraponto/radix_core.git
+projects[radix_core][download][revision] = 03bbf9f
 projects[radix_core][download][branch] = 7.x-1.x
-projects[radix_core][subdir] = panopoly
-projects[radix_core][patch][] = https://raw2.github.com/Quequere/site/master/patches/radix_core_make.patch
+projects[radix_core][subdir] = radix
 
 ; Localization
 projects[l10n_update][version] = 2.x-dev
