@@ -10453,64 +10453,79 @@ form .description {
   color: #555555;
 }
 
-/* line 53, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 52, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+.form-item {
+  margin-top: 0;
+}
+
+/* line 57, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 .media-widget > a {
   margin: 0 10px 0 0;
   display: inline-block;
 }
 
-/* line 60, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 64, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 fieldset legend {
   float: left;
   line-height: 1em;
   margin: 0;
 }
-/* line 65, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 69, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 fieldset .panel-body {
   clear: both;
 }
-
-/* line 71, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
-html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1391711754') no-repeat right 8px white !important;
+/* line 72, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+.vertical-tabs fieldset {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
-/* line 74, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+
+/* line 79, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+html.js input.form-autocomplete {
+  background: url('../images/throbber.gif?1392070779') no-repeat right 8px white !important;
+}
+/* line 82, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
   background-position: right -122px !important;
 }
-/* line 77, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 85, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 html.js fieldset.collapsed {
   height: auto;
   border-left-width: 1px;
   border-right-width: 1px;
 }
 
-/* line 84, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 92, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 1.8em;
 }
 
 @media (max-width: 767px) {
-  /* line 90, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+  /* line 98, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
   form .btn {
     width: 100%;
     display: block;
     clear: both;
     margin: 0 0 5px;
   }
-  /* line 98, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+  /* line 106, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
   form input.form-text,
   form textarea,
   form select {
     width: 100%;
   }
-  /* line 103, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+  /* line 111, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
   form .confirm-parent,
   form .password-parent,
   form .password-suggestions {
     width: auto !important;
   }
-  /* line 107, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+  /* line 115, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
   form .password-parent div.password-strength {
     width: 150px;
     float: right;
@@ -10519,7 +10534,7 @@ html.js fieldset.collapsed {
     margin-bottom: 5px;
     margin-top: -5px;
   }
-  /* line 117, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+  /* line 125, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
   form .confirm-parent div.password-confirm {
     width: 110px;
     float: right;
@@ -10529,67 +10544,7 @@ html.js fieldset.collapsed {
     margin-top: -5px;
   }
 }
-/* line 132, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
-#node-edit #edit-title {
-  font-size: 1.6em;
-  line-height: 1.6em;
-  height: 45px;
-  width: 90%;
-}
-/* line 21, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/bootstrap-sass-3.1.0.1/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-#node-edit .form-item-path-alias:before, #node-edit .form-item-path-alias:after {
-  content: " ";
-  display: table;
-}
-/* line 25, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/bootstrap-sass-3.1.0.1/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-#node-edit .form-item-path-alias:after {
-  clear: both;
-}
-/* line 140, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
-#node-edit .form-item-path-alias label, #node-edit .form-item-path-alias input {
-  display: inline;
-}
-/* line 145, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
-#node-edit .burr-flipped-sidebar .panel-pane {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: whitesmoke;
-  border: 1px solid #e3e3e3;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  padding: 10px;
-}
-/* line 21, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_mixin.scss */
-#node-edit .burr-flipped-sidebar .panel-pane blockquote {
-  border-color: #ddd;
-  border-color: rgba(0, 0, 0, 0.15);
-}
-/* line 148, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
-#node-edit .burr-flipped-sidebar .panel-pane .pane-title {
-  margin-top: 0;
-}
-/* line 152, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
-#node-edit .burr-flipped-sidebar .pane-node-form-buttons {
-  background: none;
-  padding: inherit;
-}
-/* line 155, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
-#node-edit .burr-flipped-sidebar .pane-node-form-buttons .form-actions {
-  margin: 0;
-  border-top: 0;
-}
-/* line 161, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
-#node-edit .pane-node-form-buttons {
-  clear: both;
-}
-
-/* line 166, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 137, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 .filter-wrapper {
   min-height: 20px;
   padding: 19px;
@@ -10610,72 +10565,72 @@ html.js fieldset.collapsed {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
 }
-/* line 169, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 140, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 .filter-wrapper .form-item {
   margin: 0 0 10px;
   padding: 0;
 }
-/* line 173, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 144, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 .filter-wrapper .filter-guidelines {
   padding: 0;
 }
-/* line 175, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 146, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 .filter-wrapper .filter-guidelines .tips {
   margin-left: 0;
 }
 
-/* line 187, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 158, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 .page-admin form table select,
 .page-admin form table input.form-text {
   width: 150px;
 }
 
-/* line 197, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 168, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 #features-export-form .features-export-parent {
   margin: 0 0 20px;
 }
-/* line 199, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 170, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 #features-export-form .features-export-parent fieldset.collapsed {
   min-height: 43px !important;
   background: none;
 }
-/* line 203, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 174, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 #features-export-form .features-export-parent .features-export-list {
   padding: 10px;
 }
-/* line 205, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 176, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 #features-export-form .features-export-parent .features-export-list .form-item {
   float: none !important;
 }
 
-/* line 216, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 187, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 #panels-panel-context-edit-move .container,
 #panels-panel-context-edit-content .container {
   width: auto;
   padding: 0;
 }
-/* line 219, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 190, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 #panels-panel-context-edit-move .container .row,
 #panels-panel-context-edit-content .container .row {
   margin-bottom: 20px;
 }
 
-/* line 228, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 199, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 .navbar-form .form-wrapper {
   padding: 0;
 }
-/* line 231, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 202, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 .navbar-form .form-submit {
   display: none;
 }
 
-/* line 241, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 212, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 .pane-search-box form .form-wrapper .form-group {
   display: block;
   margin-bottom: 10px;
 }
 
-/* line 251, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
+/* line 222, ../../../../../../../../../../../.rvm/gems/ruby-2.0.0-p353@radix/gems/compass_radix-3.0.0/stylesheets/compass_radix/_form.scss */
 .tabledrag-handle .handle {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
