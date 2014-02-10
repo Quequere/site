@@ -10,6 +10,51 @@
 function quequere_games_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'node-panopoly_faq-field_quequere_game'
+  $field_instances['node-panopoly_faq-field_quequere_game'] = array(
+    'bundle' => 'panopoly_faq',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'The game this FAQ is about.',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'entityreference',
+        'settings' => array(
+          'link' => FALSE,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 2,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_quequere_game',
+    'label' => 'Game',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 4,
+    ),
+  );
+
   // Exported field_instance: 'node-quequere_games-body'
   $field_instances['node-quequere_games-body'] = array(
     'bundle' => 'quequere_games',
@@ -63,6 +108,8 @@ function quequere_games_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
+  t('Game');
+  t('The game this FAQ is about.');
 
   return $field_instances;
 }
