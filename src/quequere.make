@@ -55,7 +55,6 @@ projects[panopoly_faq][subdir] = panopoly
 projects[radix_core][type] = module
 projects[radix_core][download][type] = git
 projects[radix_core][download][url] = git://github.com/barraponto/radix_core.git
-projects[radix_core][download][revision] = 03bbf9f
 projects[radix_core][download][branch] = 7.x-1.x
 projects[radix_core][subdir] = radix
 
@@ -63,7 +62,6 @@ projects[radix_core][subdir] = radix
 projects[l10n_update][version] = 2.x-dev
 projects[l10n_update][subdir] = contrib
 projects[l10n_update][download][type] = git
-projects[l10n_update][download][revision] = 2919d7e
 projects[l10n_update][download][branch] = 7.x-2.x
 projects[l10n_client][version] = 1.3
 projects[l10n_client][subdir] = contrib
@@ -71,3 +69,12 @@ projects[l10n_client][subdir] = contrib
 ; Extra Utilities
 projects[transliteration][version] = 3.1
 projects[transliteration][subdir] = contrib
+
+; Stub patch until CTools 1.4 and Panels 3.4 is out
+projects[ctools][version] = 1.x-dev
+projects[ctools][subdir] = contrib
+projects[panels][version] = 3.x-dev
+projects[panels][subdir] = contrib
+projects[views][version] = 3.7
+projects[views][subdir] = contrib
+projects[views][patch][1846156] = https://drupal.org/files/views-exposed-sorts-2037469-1.patch
