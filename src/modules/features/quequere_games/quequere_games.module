@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Quequeré Games feature.
+ */
+
+include_once 'quequere_games.features.inc';
