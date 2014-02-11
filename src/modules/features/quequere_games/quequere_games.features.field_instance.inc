@@ -112,7 +112,63 @@ function quequere_games_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 31,
+      'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance: 'node-quequere_games-field_featured_image'
+  $field_instances['node-quequere_games-field_featured_image'] = array(
+    'bundle' => 'quequere_games',
+    'deleted' => 0,
+    'description' => 'Imagem para divulgação do projeto, destacada na tela principal.',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 1,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_featured_image',
+    'label' => 'Imagem de Destaque',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 0,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 1,
     ),
   );
 
@@ -120,6 +176,8 @@ function quequere_games_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Body');
   t('Game');
+  t('Imagem de Destaque');
+  t('Imagem para divulgação do projeto, destacada na tela principal.');
   t('The game this FAQ is about.');
 
   return $field_instances;
