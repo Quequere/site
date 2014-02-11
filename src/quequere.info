@@ -56,12 +56,19 @@ dependencies[] = panopoly_faq
 ; Panopoly Radix
 dependencies[] = radix_core
 
+; Quequeré Apps
+dependencies[] = quequere_games
+
+; Quequeré Tweaks
+dependencies[] = quequere_panopoly
+
 ; Localization
 dependencies[] = l10n_update
 dependencies[] = l10n_client
 
 ; Extra Utilities
 dependencies[] = transliteration
+dependencies[] = entityreference_prepopulate
 
 ; Manifests
 dependencies[] = quequere_manifests

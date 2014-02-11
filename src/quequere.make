@@ -69,6 +69,8 @@ projects[l10n_client][subdir] = contrib
 ; Extra Utilities
 projects[transliteration][version] = 3.1
 projects[transliteration][subdir] = contrib
+projects[entityreference_prepopulate][version] = 1.4
+projects[entityreference_prepopulate][subdir] = contrib
 
 ; Stub patch until CTools 1.4 and Panels 3.4 is out
 projects[ctools][version] = 1.x-dev
