@@ -71,6 +71,7 @@ projects[transliteration][version] = 3.1
 projects[transliteration][subdir] = contrib
 projects[entityreference_prepopulate][version] = 1.4
 projects[entityreference_prepopulate][subdir] = contrib
+projects[entityreference_prepopulate][patch][2197087] = http://drupal.org/files/issues/entityreference_prepopulate-customize_link_labels.patch
 
 ; CTools Utilities Overrides
 projects[ctools][version] = 1.4
