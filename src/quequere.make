@@ -72,10 +72,10 @@ projects[transliteration][subdir] = contrib
 projects[entityreference_prepopulate][version] = 1.4
 projects[entityreference_prepopulate][subdir] = contrib
 
-; Stub patch until CTools 1.4 and Panels 3.4 is out
-projects[ctools][version] = 1.x-dev
+; CTools Utilities Overrides
+projects[ctools][version] = 1.4
 projects[ctools][subdir] = contrib
-projects[panels][version] = 3.x-dev
+projects[panels][version] = 3.4
 projects[panels][subdir] = contrib
 projects[views][version] = 3.7
 projects[views][subdir] = contrib
