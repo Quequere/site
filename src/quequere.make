@@ -80,3 +80,6 @@ projects[panels][subdir] = contrib
 projects[views][version] = 3.7
 projects[views][subdir] = contrib
 projects[views][patch][1846156] = https://drupal.org/files/views-exposed-sorts-2037469-1.patch
+projects[fieldable_panels_panes][version] = 1.5
+projects[fieldable_panels_panes][subdir] = contrib
+projects[fieldable_panels_panes][patch][2018329] = http://drupal.org/files/issues/fieldable_panels_panes-context_substitutions-2018329-8.patch
