@@ -9,3 +9,12 @@ function quequere_panopoly_default_page_manager_handlers_alter(&$data) {
     $data['node_edit_panel_context']->conf['display']->layout = 'radix_burr_flipped';
   }
 }
+
+/**
+ * Implements hook_default_page_manager_pages_alter().
+ */
+function quequere_panopoly_default_page_manager_pages_alter(&$items) {
+  if (!empty($items['panopoly_faq'])) {
+    $items['panopoly_faq']->disabled = TRUE;
+  }
+}
