@@ -51,3 +51,4 @@ features[variable][] = menu_parent_quequere_games
 features[variable][] = node_options_quequere_games
 features[variable][] = node_preview_quequere_games
 features[variable][] = node_submitted_quequere_games
+features[variable][] = pathauto_node_quequere_games_pattern
