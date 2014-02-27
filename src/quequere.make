@@ -72,6 +72,8 @@ projects[transliteration][subdir] = contrib
 projects[entityreference_prepopulate][version] = 1.4
 projects[entityreference_prepopulate][subdir] = contrib
 projects[entityreference_prepopulate][patch][2197087] = http://drupal.org/files/issues/entityreference_prepopulate-customize_link_labels.patch
+projects[honeypot][version] = 1.16
+projects[honeypot][subdir] = contrib
 
 ; Utilities Overrides
 projects[strongarm][version] = 2.0

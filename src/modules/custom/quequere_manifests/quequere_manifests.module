@@ -15,5 +15,10 @@ function quequere_manifests_kw_manifests_info() {
       'file' => 'themes.manifests.inc',
       'file path' => drupal_get_path('module', 'quequere_manifests') . '/manifests',
     ),
+    'quequere_honeypot' => array(
+      'callback' => 'quequere_manifests_honeypot',
+      'file' => 'honeypot.manifests.inc',
+      'file path' => drupal_get_path('module', 'quequere_manifests') . '/manifests',
+    ),
   );
 }

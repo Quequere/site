@@ -69,6 +69,7 @@ dependencies[] = l10n_client
 ; Extra Utilities
 dependencies[] = transliteration
 dependencies[] = entityreference_prepopulate
+dependencies[] = honeypot
 
 ; Manifests
 dependencies[] = quequere_manifests
