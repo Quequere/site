@@ -3,3 +3,4 @@ description = Panopoly modules default alters
 core = 7.x
 package = Quequeré
 dependencies[] = panopoly_admin
+dependencies[] = entity_token
