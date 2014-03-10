@@ -3,3 +3,4 @@ build
 cnf/files/
 cnf/settings.local.php
 src/cnf/settings.local.php
+Makefile
