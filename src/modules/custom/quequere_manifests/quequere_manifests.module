@@ -4,21 +4,30 @@
  * Implements hook_kw_manifests_info().
  */
 function quequere_manifests_kw_manifests_info() {
-  return array(
+  $manifests = array(
     'quequere_site_info' => array(
       'callback' => 'quequere_manifests_site_info',
       'file' => 'site-info.manifests.inc',
-      'file path' => drupal_get_path('module', 'quequere_manifests') . '/manifests',
     ),
     'quequere_theme' => array(
       'callback' => 'quequere_manifests_themes',
       'file' => 'themes.manifests.inc',
-      'file path' => drupal_get_path('module', 'quequere_manifests') . '/manifests',
     ),
     'quequere_honeypot' => array(
       'callback' => 'quequere_manifests_honeypot',
       'file' => 'honeypot.manifests.inc',
-      'file path' => drupal_get_path('module', 'quequere_manifests') . '/manifests',
+    ),
+    'quequere_content_permissions' => array(
+      'callback' => 'quequere_manifests_content_permissions',
+      'file' => 'content-permissions.manifests.inc',
     ),
   );
+
+  // Be lazy and provide the file path only once.
+  $filepath = drupal_get_path('module', 'quequere_manifests') . '/manifests';
+  // Be lazier and add it to every manifest using array_map.
+  return array_map(
+    function ($manifest) use ($filepath) {
+      return $manifest + array('file path' => $filepath);
+    }, $manifests);
 }
