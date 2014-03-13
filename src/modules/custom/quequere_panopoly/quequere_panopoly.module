@@ -23,7 +23,7 @@ function quequere_panopoly_default_page_manager_pages_alter(&$items) {
  * Implements hook_strongarm_alter().
  */
 function quequere_panopoly_strongarm_alter(&$items) {
-  if (!empty($items['pathauto_node_quequere_games_pattern'])) {
-    $items['pathauto_node_quequere_games_pattern']->value = 'jogos/[node:field-quequere-game:title]/faq/[node:title]';
+  if (!empty($items['pathauto_node_panopoly_faq_pattern'])) {
+    $items['pathauto_node_panopoly_faq_pattern']->value = 'jogos/[node:field-quequere-game:title]/faq/[node:title]';
   }
 }
