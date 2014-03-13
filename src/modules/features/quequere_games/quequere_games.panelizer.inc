@@ -20,7 +20,7 @@ function quequere_games_panelizer_defaults() {
   $panelizer->no_blocks = FALSE;
   $panelizer->css_id = '';
   $panelizer->css = '';
-  $panelizer->pipeline = 'standard';
+  $panelizer->pipeline = 'ipe';
   $panelizer->contexts = array();
   $panelizer->relationships = array();
   $panelizer->access = array();
@@ -30,7 +30,7 @@ function quequere_games_panelizer_defaults() {
   $panelizer->link_to_entity = TRUE;
   $panelizer->extra = array();
   $display = new panels_display();
-  $display->layout = 'flexible';
+  $display->layout = 'radix_brenham_flipped';
   $display->layout_settings = array();
   $display->panel_settings = array();
   $display->cache = array();
@@ -40,7 +40,7 @@ function quequere_games_panelizer_defaults() {
   $display->panels = array();
     $pane = new stdClass();
     $pane->pid = 'new-2740d486-bca8-4b9a-a88b-da5297bb4d36';
-    $pane->panel = 'center';
+    $pane->panel = 'contentmain';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:body';
     $pane->shown = TRUE;
@@ -62,10 +62,10 @@ function quequere_games_panelizer_defaults() {
     $pane->locks = array();
     $pane->uuid = '2740d486-bca8-4b9a-a88b-da5297bb4d36';
     $display->content['new-2740d486-bca8-4b9a-a88b-da5297bb4d36'] = $pane;
-    $display->panels['center'][0] = 'new-2740d486-bca8-4b9a-a88b-da5297bb4d36';
+    $display->panels['contentmain'][0] = 'new-2740d486-bca8-4b9a-a88b-da5297bb4d36';
     $pane = new stdClass();
     $pane->pid = 'new-ad7bd7f0-44b0-429f-aeda-0487e9efe2c7';
-    $pane->panel = 'center';
+    $pane->panel = 'contentmain';
     $pane->type = 'node_links';
     $pane->subtype = 'node_links';
     $pane->shown = TRUE;
@@ -84,11 +84,11 @@ function quequere_games_panelizer_defaults() {
       'css_class' => 'link-wrapper',
     );
     $pane->extras = array();
-    $pane->position = 0;
+    $pane->position = 1;
     $pane->locks = array();
     $pane->uuid = 'ad7bd7f0-44b0-429f-aeda-0487e9efe2c7';
     $display->content['new-ad7bd7f0-44b0-429f-aeda-0487e9efe2c7'] = $pane;
-    $display->panels['center'][1] = 'new-ad7bd7f0-44b0-429f-aeda-0487e9efe2c7';
+    $display->panels['contentmain'][1] = 'new-ad7bd7f0-44b0-429f-aeda-0487e9efe2c7';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-ad7bd7f0-44b0-429f-aeda-0487e9efe2c7';
   $panelizer->display = $display;
