@@ -27,7 +27,8 @@ dependencies[] = update
 dependencies[] = panopoly_core
 dependencies[] = panopoly_images
 dependencies[] = panopoly_theme
-dependencies[] = panopoly_magic
+; @TODO: hold the magic back until we debug it.
+;dependencies[] = panopoly_magic
 dependencies[] = panopoly_widgets
 dependencies[] = panopoly_admin
 dependencies[] = panopoly_users

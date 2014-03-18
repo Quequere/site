@@ -22,8 +22,9 @@ projects[panopoly_images][subdir] = panopoly
 projects[panopoly_theme][version] = 1.2
 projects[panopoly_theme][subdir] = panopoly
 
-projects[panopoly_magic][version] = 1.2
-projects[panopoly_magic][subdir] = panopoly
+; @TODO: hold the magic back until we can debug it.
+;projects[panopoly_magic][version] = 1.2
+;projects[panopoly_magic][subdir] = panopoly
 
 projects[panopoly_widgets][version] = 1.2
 projects[panopoly_widgets][subdir] = panopoly
