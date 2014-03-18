@@ -124,11 +124,11 @@ function quequere_games_field_default_field_instances() {
     'description' => 'Imagem para divulgação do projeto, destacada na tela principal.',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => 'panopoly_image_full',
         ),
         'type' => 'image',
         'weight' => 1,
@@ -245,9 +245,11 @@ function quequere_games_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'file',
-        'settings' => array(),
-        'type' => 'file_default',
+        'module' => 'file_entity',
+        'settings' => array(
+          'text' => 'Baixe aqui o manual do jogo!',
+        ),
+        'type' => 'file_download_link',
         'weight' => 2,
       ),
       'featured' => array(
