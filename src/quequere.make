@@ -79,7 +79,7 @@ projects[honeypot][subdir] = contrib
 ; Utilities Overrides
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
-projects[fieldable_panels_panes][patch][2018329] = https://drupal.org/files/strongarm-2076543-import-export-value-alter-hooks.patch
+projects[strongarm][patch][2076543] = https://drupal.org/files/strongarm-2076543-import-export-value-alter-hooks.patch
 projects[fieldable_panels_panes][version] = 1.5
 projects[fieldable_panels_panes][subdir] = contrib
 projects[fieldable_panels_panes][patch][2018329] = http://drupal.org/files/issues/fieldable_panels_panes-context_substitutions-2018329-8.patch
