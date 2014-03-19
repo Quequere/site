@@ -6,10 +6,6 @@
  * Perform actions to set up the site for this profile.
  */
 function quequere_install() {
-  // Enable some standard blocks.
-  $default_theme = 'basic';
-  variable_set('theme_default', $default_theme);
-
   // Allow visitor account creation, but with administrative approval.
   variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
 
