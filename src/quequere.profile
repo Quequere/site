@@ -99,7 +99,7 @@ function quequere_default_content(&$modules) {
   //   }
   // }
 
+  // Quequeré!
   define('QUEQUERE', FALSE);
-
   return QUEQUERE;
 }
