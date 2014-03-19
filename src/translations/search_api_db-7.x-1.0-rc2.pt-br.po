@@ -1,10 +1,10 @@
 # Portuguese, Brazil translation of Search API Database Search (7.x-1.0-rc2)
-# Copyright (c) 2013 by the Portuguese, Brazil translation team
+# Copyright (c) 2014 by the Portuguese, Brazil translation team
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Search API Database Search (7.x-1.0-rc2)\n"
-"POT-Creation-Date: 2013-07-21 22:02+0000\n"
+"POT-Creation-Date: 2014-03-01 00:45+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Portuguese, Brazil\n"
 "MIME-Version: 1.0\n"
@@ -16,3 +16,5 @@ msgid "Search"
 msgstr "Buscar"
 msgid "Database"
 msgstr "Banco de dados"
+msgid "Database service"
+msgstr "Serviço de banco de dados"
