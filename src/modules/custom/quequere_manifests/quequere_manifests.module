@@ -21,6 +21,10 @@ function quequere_manifests_kw_manifests_info() {
       'callback' => 'quequere_manifests_content_permissions',
       'file' => 'content-permissions.manifests.inc',
     ),
+    'quequere_administrivia_permissions' => array(
+      'callback' => 'quequere_manifests_administrivia_permissions',
+      'file' => 'administrivia-permissions.manifests.inc',
+    ),
   );
 
   // Be lazy and provide the file path only once.
