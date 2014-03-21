@@ -42,6 +42,6 @@ function basic_preprocess_page(&$variables) {
 function basic_process_page(&$variables) {
   $node = menu_get_object();
   if (!empty($node) && count(arg()) == 2 && $node->type == 'quequere_games') {
-    unset($variables['title']);
+    $variables['title'] = FALSE;
   }
 }
