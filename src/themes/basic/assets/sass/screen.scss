@@ -11,7 +11,7 @@
 
 // Bootswatch
 // --------------------------------------------------
-@import "bootswatch/_variables";
+@import "bootswatch/variables";
 
 // Radix
 // --------------------------------------------------
@@ -32,5 +32,6 @@
 @import "partials/view";
 @import "partials/form";
 @import "partials/comment";
+@import "partials/term";
 @import "partials/node";
 @import "partials/user";
