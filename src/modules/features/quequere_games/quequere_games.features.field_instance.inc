@@ -113,7 +113,7 @@ function quequere_games_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 3,
+      'weight' => 4,
     ),
   );
 
@@ -170,6 +170,106 @@ function quequere_games_field_default_field_instances() {
       ),
       'type' => 'image_image',
       'weight' => 1,
+    ),
+  );
+
+  // Exported field_instance: 'node-quequere_games-field_game_authors'
+  $field_instances['node-quequere_games-field_game_authors'] = array(
+    'bundle' => 'quequere_games',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 13,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_game_authors',
+    'label' => 'Autor',
+    'required' => 1,
+    'settings' => array(
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 16,
+    ),
+  );
+
+  // Exported field_instance: 'node-quequere_games-field_game_components'
+  $field_instances['node-quequere_games-field_game_components'] = array(
+    'bundle' => 'quequere_games',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 12,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_game_components',
+    'label' => 'Componentes',
+    'required' => 0,
+    'settings' => array(
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 5,
     ),
   );
 
@@ -233,7 +333,57 @@ function quequere_games_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 8,
+      'weight' => 6,
+    ),
+  );
+
+  // Exported field_instance: 'node-quequere_games-field_game_illustrators'
+  $field_instances['node-quequere_games-field_game_illustrators'] = array(
+    'bundle' => 'quequere_games',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 8,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_game_illustrators',
+    'label' => 'Ilustrador',
+    'required' => 1,
+    'settings' => array(
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 17,
     ),
   );
 
@@ -283,7 +433,129 @@ function quequere_games_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'file_generic',
-      'weight' => 4,
+      'weight' => 13,
+    ),
+  );
+
+  // Exported field_instance: 'node-quequere_games-field_game_players'
+  $field_instances['node-quequere_games-field_game_players'] = array(
+    'bundle' => 'quequere_games',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'range',
+        'settings' => array(
+          'decimal_separator' => '.',
+          'from_prefix_suffix' => TRUE,
+          'range_combine' => FALSE,
+          'range_separator' => '-',
+          'scale' => 0,
+          'thousand_separator' => ' ',
+          'to_prefix_suffix' => TRUE,
+        ),
+        'type' => 'range_integer',
+        'weight' => 10,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_game_players',
+    'label' => 'Jogadores',
+    'required' => 0,
+    'settings' => array(
+      'from' => array(
+        'prefix' => '',
+        'suffix' => '',
+      ),
+      'max' => '',
+      'min' => '',
+      'to' => array(
+        'prefix' => '',
+        'suffix' => 'jogadores',
+      ),
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'range',
+      'settings' => array(),
+      'type' => 'range',
+      'weight' => 18,
+    ),
+  );
+
+  // Exported field_instance: 'node-quequere_games-field_game_playing_time'
+  $field_instances['node-quequere_games-field_game_playing_time'] = array(
+    'bundle' => 'quequere_games',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'range',
+        'settings' => array(
+          'decimal_separator' => '.',
+          'from_prefix_suffix' => TRUE,
+          'range_combine' => FALSE,
+          'range_separator' => '-',
+          'scale' => 0,
+          'thousand_separator' => ' ',
+          'to_prefix_suffix' => TRUE,
+        ),
+        'type' => 'range_integer',
+        'weight' => 9,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_game_playing_time',
+    'label' => 'Duração da Partida',
+    'required' => 0,
+    'settings' => array(
+      'from' => array(
+        'prefix' => '',
+        'suffix' => '',
+      ),
+      'max' => '',
+      'min' => '',
+      'to' => array(
+        'prefix' => '',
+        'suffix' => 'minutos',
+      ),
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'range',
+      'settings' => array(),
+      'type' => 'range',
+      'weight' => 19,
     ),
   );
 
@@ -331,7 +603,7 @@ function quequere_games_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'file_generic',
-      'weight' => 5,
+      'weight' => 14,
     ),
   );
 
@@ -380,7 +652,7 @@ function quequere_games_field_default_field_instances() {
       'enable_tokens' => 1,
       'linkit' => array(
         'enable' => 0,
-        'insert_plugin' => '',
+        'insert_plugin' => 'html_link',
       ),
       'rel_remove' => 'default',
       'title' => 'value',
@@ -396,6 +668,54 @@ function quequere_games_field_default_field_instances() {
       'settings' => array(),
       'type' => 'link_field',
       'weight' => 7,
+    ),
+  );
+
+  // Exported field_instance: 'node-quequere_games-field_game_templates'
+  $field_instances['node-quequere_games-field_game_templates'] = array(
+    'bundle' => 'quequere_games',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'file',
+        'settings' => array(),
+        'type' => 'file_default',
+        'weight' => 11,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_game_templates',
+    'label' => 'Modelos para customização',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'pdf zip',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'file',
+      'settings' => array(
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'file_generic',
+      'weight' => 15,
     ),
   );
 
@@ -461,18 +781,24 @@ function quequere_games_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'media_generic',
-      'weight' => 6,
+      'weight' => 2,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Apresentação');
+  t('Autor');
   t('Campanha');
+  t('Componentes');
+  t('Duração da Partida');
   t('Game');
+  t('Ilustrador');
   t('Imagem de Destaque');
   t('Imagem para divulgação do projeto, destacada na tela principal.');
+  t('Jogadores');
   t('Manual do jogo');
+  t('Modelos para customização');
   t('Print and Play');
   t('Repositório');
   t('The game this FAQ is about.');
