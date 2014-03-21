@@ -1,0 +1,20 @@
+diff --git a/panopoly_core.make b/panopoly_core.make
+index a74c075..7f9f00d 100644
+--- a/panopoly_core.make
++++ b/panopoly_core.make
+@@ -7,6 +7,7 @@ core = 7.x
+ 
+ projects[ctools][version] = 1.4
+ projects[ctools][subdir] = contrib
++projects[ctools][patch][2222513] = http://drupal.org/files/issues/ctools-field_group_form_panes.patch
+ 
+ projects[panels][version] = 3.4
+ projects[panels][subdir] = contrib
+@@ -19,6 +20,7 @@ projects[panelizer][subdir] = contrib
+ 
+ projects[fieldable_panels_panes][version] = 1.5
+ projects[fieldable_panels_panes][subdir] = contrib
++projects[fieldable_panels_panes][patch][2018329] = http://drupal.org/files/issues/fieldable_panels_panes-context_substitutions-2018329-8.patch
+ 
+ projects[pm_existing_pages][version] = 1.4
+ projects[pm_existing_pages][subdir] = contrib

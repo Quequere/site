@@ -15,6 +15,7 @@ projects[kw_itemnames][subdir] = "kraftwagen"
 
 projects[panopoly_core][version] = 1.2
 projects[panopoly_core][subdir] = panopoly
+projects[panopoly_core][patch][] = patches/panopoly_core-patches.patch
 
 projects[panopoly_images][version] = 1.2
 projects[panopoly_images][subdir] = panopoly
@@ -77,3 +78,5 @@ projects[honeypot][version] = 1.16
 projects[honeypot][subdir] = contrib
 projects[features_override][version] = 2.0-rc1
 projects[features_override][subdir] = contrib
+projects[range][version] = 1.1
+projects[range][subdir] = contrib
