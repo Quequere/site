@@ -1,16 +1,6 @@
 <?php
 
 /**
- * Implements hook_default_page_manager_handlers_alter().
- */
-function quequere_panopoly_default_page_manager_handlers_alter(&$data) {
-  // Use radix_burr_flipped for node_edit_forms.
-  if (!empty($data['node_edit_panel_context'])) {
-    $data['node_edit_panel_context']->conf['display']->layout = 'radix_burr_flipped';
-  }
-}
-
-/**
  * Implements hook_default_page_manager_pages_alter().
  */
 function quequere_panopoly_default_page_manager_pages_alter(&$items) {
