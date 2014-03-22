@@ -313,6 +313,22 @@ function quequere_games_field_default_field_bases() {
     'type' => 'file',
   );
 
+  // Exported field_base: 'field_quequere_faq_feedback'
+  $field_bases['field_quequere_faq_feedback'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_quequere_faq_feedback',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'email',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'email',
+  );
+
   // Exported field_base: 'field_quequere_game'
   $field_bases['field_quequere_game'] = array(
     'active' => 1,

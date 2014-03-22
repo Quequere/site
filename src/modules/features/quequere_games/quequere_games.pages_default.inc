@@ -120,15 +120,9 @@ node/%node:nid',
     $pane->subtype = 'quequere_games_faq-panel_pane_3';
     $pane->shown = TRUE;
     $pane->access = array();
-    $pane->configuration = array(
-      'context' => array(
-        0 => 'argument_entity_id:node_1',
-      ),
-    );
+    $pane->configuration = array();
     $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
+    $pane->style = '';
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 0;

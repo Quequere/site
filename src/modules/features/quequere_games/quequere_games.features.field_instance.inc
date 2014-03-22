@@ -10,6 +10,51 @@
 function quequere_games_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'node-panopoly_faq-field_quequere_faq_feedback'
+  $field_instances['node-panopoly_faq-field_quequere_faq_feedback'] = array(
+    'bundle' => 'panopoly_faq',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'Deixe seu email para receber feedback do sêo Quequeré!',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'email',
+        'settings' => array(),
+        'type' => 'email_default',
+        'weight' => 3,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_quequere_faq_feedback',
+    'label' => 'Email para Feedback',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'email',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'email_textfield',
+      'weight' => 1,
+    ),
+  );
+
   // Exported field_instance: 'node-panopoly_faq-field_quequere_game'
   $field_instances['node-panopoly_faq-field_quequere_game'] = array(
     'bundle' => 'panopoly_faq',
@@ -62,7 +107,7 @@ function quequere_games_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_select',
-      'weight' => 4,
+      'weight' => 5,
     ),
   );
 
@@ -791,7 +836,9 @@ function quequere_games_field_default_field_instances() {
   t('Autor');
   t('Campanha');
   t('Componentes');
+  t('Deixe seu email para receber feedback do sêo Quequeré!');
   t('Duração da Partida');
+  t('Email para Feedback');
   t('Game');
   t('Ilustrador');
   t('Imagem de Destaque');

@@ -16,4 +16,7 @@ function basic_form_panopoly_faq_node_form_alter(&$form, &$form_state) {
   if ($user->uid == 0) {
     $form['body']['#access'] = FALSE;
   }
+  if ($user->uid != 0) {
+    $form['field_quequere_faq_feedback']['#access'] = FALSE;
+  }
 }
