@@ -120,15 +120,6 @@ function quequere_games_default_page_manager_handlers_alter(&$data) {
 }
 
 /**
- * Implements hook_default_page_manager_pages_alter().
- */
-function quequere_games_default_page_manager_pages_alter(&$data) {
-  if (isset($data['quequere_games_faq'])) {
-    $data['quequere_games_faq']->default_handlers['page_quequere_games_faq_panel_context']->conf['display']->content['new-038ca274-c113-421d-9344-a83de03602b7']->style = ''; /* WAS: '' */
-  }
-}
-
-/**
  * Implements hook_node_info().
  */
 function quequere_games_node_info() {

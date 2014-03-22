@@ -95,8 +95,5 @@ function quequere_games_features_override_default_overrides() {
   $overrides["page_manager_handlers.node_edit_panel_context.conf|display|panels|sidebar|8"] = 'new-9176b962-e64f-44a6-8ebe-e03ebf0f6c3d';
   $overrides["page_manager_handlers.node_edit_panel_context.conf|display|panels|sidebar|9"] = 'new-6e4a98d8-3738-41b9-8c33-4b4c905c6834';
 
-  // Exported overrides for: page_manager_pages
-  $overrides["page_manager_pages.quequere_games_faq.default_handlers|page_quequere_games_faq_panel_context|conf|display|content|new-038ca274-c113-421d-9344-a83de03602b7|style"] = '';
-
  return $overrides;
 }
