@@ -72,6 +72,8 @@ dependencies[] = transliteration
 dependencies[] = entityreference_prepopulate
 dependencies[] = honeypot
 dependencies[] = features_override
+dependencies[] = rules
+dependencies[] = smtp
 
 ; Manifests
 dependencies[] = quequere_manifests
