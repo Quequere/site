@@ -13,6 +13,29 @@ function quequere_games_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'disable_messages_enable';
+  $strongarm->value = 1;
+  $export['disable_messages_enable'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'disable_messages_ignore_patterns';
+  $strongarm->value = 'FAQ .+ criado\\.';
+  $export['disable_messages_ignore_patterns'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'disable_messages_ignore_regex';
+  $strongarm->value = array(
+    0 => '/^FAQ .+ criado\\.$/i',
+  );
+  $export['disable_messages_ignore_regex'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_node__quequere_games';
   $strongarm->value = array(
     'view_modes' => array(

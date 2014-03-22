@@ -19,7 +19,17 @@ function quequere_games_default_rules_configuration() {
       "IF" : [
         { "user_has_role" : { "account" : [ "node:author" ], "roles" : { "value" : { "1" : "1" } } } }
       ],
-      "DO" : [ { "node_unpublish" : { "node" : [ "node" ] } } ]
+      "DO" : [
+        { "node_unpublish" : { "node" : [ "node" ] } },
+        { "drupal_message" : { "message" : "Sua d\\u00favida foi encaminhada para o S\\u00eao Quequer\\u00e9, aguarde notifica\\u00e7\\u00f5es no seu email!" } },
+        { "mail_to_users_of_role" : {
+            "roles" : { "value" : { "4" : "4" } },
+            "subject" : "FAQ: [node:field-quequere-game:title]",
+            "message" : "Nova pergunta: [node:title]\\r\\nPara responder, visite [site:url]\\/[node:edit-url].",
+            "from" : "[node:field_quequere_faq_feedback]"
+          }
+        }
+      ]
     }
   }');
   return $items;
