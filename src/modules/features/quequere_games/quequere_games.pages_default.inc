@@ -84,37 +84,23 @@ node/%node:nid',
     ),
   );
   $display->cache = array();
-  $display->title = 'Perguntas Frequentes';
+  $display->title = '%node:title : Perguntas Frequentes';
   $display->uuid = 'b72f9bd4-3536-47c6-991f-dc93f581d442';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-5f12c363-96c0-4a09-859f-9590f8155fd5';
+    $pane->pid = 'new-07253ccb-8eee-4de7-8fbd-ee300fbf744a';
     $pane->panel = 'contentmain';
     $pane->type = 'views_panes';
-    $pane->subtype = 'panopoly_faq-panel_pane_1';
+    $pane->subtype = 'quequere_games_faq-panel_pane_2';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'items_per_page' => '0',
-      'fields_override' => array(
-        'field_featured_image' => 1,
-        'title' => 1,
-        'body' => 1,
-      ),
-      'exposed' => array(
-        'sort_order' => 'DESC',
-        'sort_by' => 'title',
-      ),
       'context' => array(
-        0 => 'empty',
+        0 => 'argument_entity_id:node_1',
       ),
-      'override_title' => '',
+      'override_title' => 1,
       'override_title_text' => '',
-      'view_settings' => 'nodes',
-      'header_type' => 'none',
-      'view_mode' => 'full',
-      'widget_title' => 'Frequently Asked Questions and Answers',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -124,9 +110,32 @@ node/%node:nid',
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $pane->uuid = '5f12c363-96c0-4a09-859f-9590f8155fd5';
-    $display->content['new-5f12c363-96c0-4a09-859f-9590f8155fd5'] = $pane;
-    $display->panels['contentmain'][0] = 'new-5f12c363-96c0-4a09-859f-9590f8155fd5';
+    $pane->uuid = '07253ccb-8eee-4de7-8fbd-ee300fbf744a';
+    $display->content['new-07253ccb-8eee-4de7-8fbd-ee300fbf744a'] = $pane;
+    $display->panels['contentmain'][0] = 'new-07253ccb-8eee-4de7-8fbd-ee300fbf744a';
+    $pane = new stdClass();
+    $pane->pid = 'new-038ca274-c113-421d-9344-a83de03602b7';
+    $pane->panel = 'sidebar';
+    $pane->type = 'views_panes';
+    $pane->subtype = 'quequere_games_faq-panel_pane_3';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'context' => array(
+        0 => 'argument_entity_id:node_1',
+      ),
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = '038ca274-c113-421d-9344-a83de03602b7';
+    $display->content['new-038ca274-c113-421d-9344-a83de03602b7'] = $pane;
+    $display->panels['sidebar'][0] = 'new-038ca274-c113-421d-9344-a83de03602b7';
     $pane = new stdClass();
     $pane->pid = 'new-3ffa201a-df0b-4a70-b1e3-1d52e18de2ce';
     $pane->panel = 'sidebar';
@@ -152,11 +161,11 @@ node/%node:nid',
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 0;
+    $pane->position = 1;
     $pane->locks = array();
     $pane->uuid = '3ffa201a-df0b-4a70-b1e3-1d52e18de2ce';
     $display->content['new-3ffa201a-df0b-4a70-b1e3-1d52e18de2ce'] = $pane;
-    $display->panels['sidebar'][0] = 'new-3ffa201a-df0b-4a70-b1e3-1d52e18de2ce';
+    $display->panels['sidebar'][1] = 'new-3ffa201a-df0b-4a70-b1e3-1d52e18de2ce';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;

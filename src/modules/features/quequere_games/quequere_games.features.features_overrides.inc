@@ -95,5 +95,52 @@ function quequere_games_features_override_default_overrides() {
   $overrides["page_manager_handlers.node_edit_panel_context.conf|display|panels|sidebar|8"] = 'new-9176b962-e64f-44a6-8ebe-e03ebf0f6c3d';
   $overrides["page_manager_handlers.node_edit_panel_context.conf|display|panels|sidebar|9"] = 'new-6e4a98d8-3738-41b9-8c33-4b4c905c6834';
 
+  // Exported overrides for: page_manager_pages
+  $overrides["page_manager_pages.quequere_games_faq.default_handlers|page_quequere_games_faq_panel_context|conf|display|content|new-038ca274-c113-421d-9344-a83de03602b7"] = (object) array(
+      'pid' => 'new-038ca274-c113-421d-9344-a83de03602b7',
+      'panel' => 'sidebar',
+      'type' => 'views_panes',
+      'subtype' => 'quequere_games_faq-panel_pane_3',
+      'shown' => TRUE,
+      'access' => array(),
+      'configuration' => array(),
+      'cache' => array(),
+      'css' => array(),
+      'extras' => array(),
+      'position' => 0,
+      'locks' => array(),
+      'uuid' => '038ca274-c113-421d-9344-a83de03602b7',
+    );
+  $overrides["page_manager_pages.quequere_games_faq.default_handlers|page_quequere_games_faq_panel_context|conf|display|content|new-07253ccb-8eee-4de7-8fbd-ee300fbf744a"] = (object) array(
+      'pid' => 'new-07253ccb-8eee-4de7-8fbd-ee300fbf744a',
+      'panel' => 'contentmain',
+      'type' => 'views_panes',
+      'subtype' => 'quequere_games_faq-panel_pane_2',
+      'shown' => TRUE,
+      'access' => array(),
+      'configuration' => array(
+        'context' => array(
+          0 => 'argument_entity_id:node_1',
+        ),
+        'override_title' => 1,
+        'override_title_text' => '',
+      ),
+      'cache' => array(),
+      'style' => array(
+        'settings' => NULL,
+      ),
+      'css' => array(),
+      'extras' => array(),
+      'position' => 0,
+      'locks' => array(),
+      'uuid' => '07253ccb-8eee-4de7-8fbd-ee300fbf744a',
+    );
+  $overrides["page_manager_pages.quequere_games_faq.default_handlers|page_quequere_games_faq_panel_context|conf|display|content|new-3ffa201a-df0b-4a70-b1e3-1d52e18de2ce|position"] = 1;
+  $overrides["page_manager_pages.quequere_games_faq.default_handlers|page_quequere_games_faq_panel_context|conf|display|content|new-5f12c363-96c0-4a09-859f-9590f8155fd5"]["DELETED"] = TRUE;
+  $overrides["page_manager_pages.quequere_games_faq.default_handlers|page_quequere_games_faq_panel_context|conf|display|panels|contentmain|0"] = 'new-07253ccb-8eee-4de7-8fbd-ee300fbf744a';
+  $overrides["page_manager_pages.quequere_games_faq.default_handlers|page_quequere_games_faq_panel_context|conf|display|panels|sidebar|0"] = 'new-038ca274-c113-421d-9344-a83de03602b7';
+  $overrides["page_manager_pages.quequere_games_faq.default_handlers|page_quequere_games_faq_panel_context|conf|display|panels|sidebar|1"] = 'new-3ffa201a-df0b-4a70-b1e3-1d52e18de2ce';
+  $overrides["page_manager_pages.quequere_games_faq.default_handlers|page_quequere_games_faq_panel_context|conf|display|title"] = '%node:title : Perguntas Frequentes';
+
  return $overrides;
 }
